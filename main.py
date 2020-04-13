@@ -42,7 +42,7 @@ def list_videos(search_term):
     xbmcplugin.setPluginCategory(_handle, search_term)
     xbmcplugin.setContent(_handle, 'videos')
 
-    url = "https://invidious.snopyta.org/api/v1/search?q="+search_term+"&pretty=1&sort_by=upload_date"
+    url = "https://invidio.us/api/v1/search?q="+search_term+"&pretty=1&sort_by=upload_date"
     response = urllib.urlopen(url)
     data = json.loads(response.read())
     for video in data:
@@ -64,7 +64,7 @@ def play_video(videoId):
     Play a video by the provided ID.
     """
 
-    url = "https://invidious.snopyta.org/api/v1/videos/" + videoId
+    url = "https://invidio.us/api/v1/videos/" + videoId
     response = urllib.urlopen(url)
     data = json.loads(response.read())
     play_item = xbmcgui.ListItem(path=data["formatStreams"][0]["url"]) # TODO: Select stream with desired quality
