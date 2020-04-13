@@ -19,7 +19,8 @@ killall kodi.bin
 Pull requests are welcome. This is really easy Python code, after all.
 
 * Implement search
-* Implement "subscription" to topics/search terms set in the settings of the add-on 
+* Implement "subscription" to topics/search terms set in the settings of the add-on
+* Add a setting to allow the use of alternative hosts such as https://invidious.snopyta.org/
 * Implement managing subscriptions through the Invidious API
 * Implement watch history, preferences through the Invidious API
 * Metadata for the add-on, e.g., abstract, icon, screenshots, etc.
