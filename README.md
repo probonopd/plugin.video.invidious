@@ -1,6 +1,6 @@
 # Invidious add-on
 
-Play media on KODI from https://invidious.snopyta.org. Invidious is an alternative front-end to YouTube. No need to create a Google account to save subscriptions.
+Play media on KODI from https://invidious.snopyta.org. Invidious is an alternative front-end to YouTube. No need to enter API keys nor a Google account.
 
 ## Installation
 
