@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.invidious"
+version="0.1"
+name="Invidious"
+provider-name="probono">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.web-pdb" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Invidious</summary>
+  <description lang="en_US">Watch videos on https://invidious.snopyta.org
+  </description>
+  <assets>
+    <icon>icon.png</icon>
+  </assets>
+  <news></news>
+</extension>
+</addon>
