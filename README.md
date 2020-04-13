@@ -1,6 +1,6 @@
 # Invidious add-on
 
-Play media on KODI from https://invidious.snopyta.org.
+Play media on KODI from https://invidious.snopyta.org. Invidious is an alternative front-end to YouTube. No need to create a Google account to save subscriptions.
 
 ## Installation
 
@@ -13,3 +13,17 @@ unzip plugin.video.invidious.zip
 mv plugin.video.invidious-master plugin.video.invidious
 killall kodi.bin
 ```
+
+## TODO
+
+Pull requests are welcome. This is really easy Python code, after all.
+
+* Implement search
+* Implement "subscription" to topics/search terms set in the settings of the add-on 
+* Implement managing subscriptions through the Invidious API
+* Imlpement watch history, preferences through the Invidious API
+
+## References
+
+* https://kodi.wiki/view/Add-on_development
+* https://github.com/omarroth/invidious/wiki/API
