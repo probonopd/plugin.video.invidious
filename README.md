@@ -21,7 +21,8 @@ Pull requests are welcome. This is really easy Python code, after all.
 * Implement search
 * Implement "subscription" to topics/search terms set in the settings of the add-on 
 * Implement managing subscriptions through the Invidious API
-* Imlpement watch history, preferences through the Invidious API
+* Implement watch history, preferences through the Invidious API
+* Metadata for the add-on, e.g., abstract, icon, screenshots, etc.
 
 ## References
 
